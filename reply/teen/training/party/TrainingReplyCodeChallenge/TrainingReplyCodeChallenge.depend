@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1552602394 source:d:\lorenzo\documents\git\progettibeta\informatica 2018-2019\c++\trainingreplycodechallenge\main.cpp
+	<iostream>
+	<string>
+	<vector>
+	<stdlib.h>
+	<fstream>
+
