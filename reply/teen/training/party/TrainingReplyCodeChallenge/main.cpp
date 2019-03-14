@@ -59,9 +59,8 @@ int main()
             sum=0;
             vector<string> toSum=split(v[i]," ");
             for(int k=0;k<toSum.size();k++){
-                sum+=stoi(toSum[k]);
+                if(stoi(toSum[k])>0)sum+=stoi(toSum[k]);
             }
-            if(sum<0)sum=0;
             num++;
             writeFile("output.txt","Case #"+to_string(num)+": "+to_string(sum)+"\n");
     }
